@@ -1,0 +1,10 @@
+name: exmpl
+channels:
+  - conda-forge
+dependencies:
+  # every dependency is downloaded from conda forge, this is equivalent to
+  # strict channel priority
+  - conda-forge::python
+  - conda-forge::numpy
+  - conda-forge::pandas
+  - conda-forge::matplotlib
